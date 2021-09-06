@@ -1,0 +1,69 @@
+.page {
+    background-image: url(./Image/YouTube\ Clone.gif);
+    height: 115vh;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+footer nav {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-family: monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #ededed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer nav i a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 4px;
+}
+
+footer i {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+footer #copy i {
+    transition: .5s;
+}
+
+footer #copy :hover {
+    color: red;
+}
+
+#copy i {
+    text-align: center;
+    font-weight: bold;
+    font-style: bold;
+    padding: 5px;
+    width: 100%;
+    background-color: #000;
+    color: whitesmoke;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+#copy i span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
