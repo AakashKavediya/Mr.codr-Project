@@ -48,6 +48,11 @@ footer #copy :hover {
     color: red;
 }
 
+main {
+    overflow: hidden;
+    width: 100%;
+}
+
 #copy i {
     text-align: center;
     font-weight: bold;
@@ -66,4 +71,160 @@ footer #copy :hover {
 footer {
     background-color: black;
     color: white;
+}
+
+#artical1 {
+    height: 100%;
+}
+
+#artical2 {
+    height: 100%;
+}
+
+#artical3 {
+    height: 100%;
+}
+
+.cont {
+    background-image: linear-gradient(rgb(0, 89, 255), rgb(0, 119, 255), rgb(0, 183, 255), rgb(68, 186, 233), cyan);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#artical1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 50px;
+}
+
+#artical1 nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* right: 0; */
+    /* align-items: center; */
+}
+
+#artical1 nav a {
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px;
+    width: 170px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .5s;
+}
+
+#artical1 nav a:hover {
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+#artical1 h2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#artical1 p {
+    color: rgba(0, 0, 0, 0.856);
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#artical2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 50px;
+}
+
+#artical2 nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* right: 0; */
+    /* align-items: center; */
+}
+
+#artical2 nav a {
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px;
+    width: 170px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .5s;
+}
+
+#artical2 nav a:hover {
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+#artical2 h2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#artical2 p {
+    color: rgba(0, 0, 0, 0.856);
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
