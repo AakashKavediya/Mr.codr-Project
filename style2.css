@@ -52,6 +52,11 @@ main {
     overflow: hidden;
     width: 100%;
     padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #copy i {
@@ -229,4 +234,54 @@ body {
     font-family: 'Ubuntu', sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+@media(max-height:830px) {
+    .page {
+        background: url(./Image/httpsaakashkavediya.github.ioMr.codr-Project.gif) no-repeat;
+        height: 70vh;
+        background-size: 100%;
+        padding-top: 30px;
+    }
+    #artical1 nav a {
+        font-size: 15px;
+        /* padding-left: 3px; */
+        /* padding-right: 3px; */
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    #artical2 nav a {
+        font-size: 15px;
+        /* padding-left: 3px; */
+        /* padding-right: 3px; */
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    #artical3 nav a {
+        font-size: 15px;
+        /* padding-left: 3px; */
+        /* padding-right: 3px; */
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    footer nav {
+        display: flex;
+        flex-direction: column;
+        /* margin-right: auto; */
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }

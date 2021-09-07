@@ -96,3 +96,36 @@ header ol #l5:hover {
     display: block;
     transition: 5s;
 }
+
+#barss {
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    bottom: 15px;
+    display: none;
+}
+
+#bars {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+@media(max-width:1100px) {
+    header ol {
+        display: none;
+        position: absolute;
+        top: 57px;
+        background-color: #000;
+    }
+    #barss {
+        display: block;
+    }
+    html {
+        overflow-x: hidden;
+    }
+}
