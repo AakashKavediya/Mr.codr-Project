@@ -51,6 +51,7 @@ footer #copy :hover {
 main {
     overflow: hidden;
     width: 100%;
+    padding-top: 50px;
 }
 
 #copy i {
@@ -75,6 +76,7 @@ footer {
 
 #artical1 {
     height: 100%;
+    padding-top: 300px;
 }
 
 #artical2 {
