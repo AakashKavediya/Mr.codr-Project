@@ -115,6 +115,247 @@ header ol #l5:hover {
     visibility: hidden;
 }
 
+.page {
+    background-image: url(./Image/YouTube\ Clone.gif);
+    height: 115vh;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+footer nav {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-family: monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #ededed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer nav i a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 4px;
+}
+
+footer i {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+footer #copy i {
+    transition: .5s;
+}
+
+footer #copy :hover {
+    color: red;
+}
+
+main {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 50px;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    margin-left: auto;
+    /* margin-right: auto; */
+}
+
+#copy i {
+    text-align: center;
+    font-weight: bold;
+    font-style: bold;
+    padding: 5px;
+    width: 100%;
+    background-color: #000;
+    color: whitesmoke;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+#copy i span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+#artical1 {
+    height: 100%;
+    padding-top: 10px;
+}
+
+#artical2 {
+    height: 100%;
+}
+
+#artical3 {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#artical1 {
+    text-align: right;
+    margin-left: auto;
+}
+
+#artical1 nav {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    justify-content: right;
+}
+
+#artical1 nav a {
+    padding: 1px;
+    width: 170px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-size: 14px;
+    text-align: left;
+    justify-content: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    transition: .5s;
+    margin-top: 2px;
+}
+
+#artical1 h2 {
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin-left: auto;
+    color: black;
+    border-bottom: 2px solid #000;
+    font-size: 18px;
+    width: max-content;
+    padding-left: 1px;
+    padding-bottom: 2px;
+    width: 170px;
+    margin-top: 30px;
+}
+
+#artical2 {
+    text-align: right;
+    margin-left: auto;
+}
+
+#artical2 nav {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    justify-content: right;
+}
+
+#artical2 nav a {
+    padding: 1px;
+    width: 170px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-size: 14px;
+    text-align: left;
+    justify-content: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    transition: .5s;
+    margin-top: 2px;
+}
+
+#artical2 h2 {
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    margin-left: auto;
+    color: black;
+    border-bottom: 2px solid #000;
+    font-size: 18px;
+    width: max-content;
+    padding-left: 1px;
+    padding-bottom: 2px;
+    width: 170px;
+    margin-top: 30px;
+}
+
+aside {
+    width: 180px;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    margin-left: auto;
+    background-color: whitesmoke;
+}
+
+@media(max-width:400px) {
+    #artical1 nav a {
+        font-size: 15px;
+        /* padding-left: 3px; */
+        /* padding-right: 3px; */
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: auto;
+        /* margin-right: auto; */
+        margin-top: 3px;
+    }
+    #artical2 nav a {
+        font-size: 15px;
+        /* padding-left: 3px; */
+        /* padding-right: 3px; */
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: auto;
+        /* margin-right: auto; */
+        margin-top: 2px;
+    }
+    #artical3 nav a {
+        font-size: 15px;
+        /* padding-left: 3px; */
+        /* padding-right: 3px; */
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: auto;
+        /* margin-right: auto; */
+        margin-top: 2px;
+    }
+    footer nav {
+        display: flex;
+        flex-direction: column;
+        /* margin-right: auto; */
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media(max-width:1100px) {
     header ol {
         display: none;
